@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#d6be7e">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="550dp"
+        android:text="расходы"
+        android:textColor="#808080"
+        android:backgroundTint="#3a4c24"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="550dp"
+        android:text="главная"
+        android:textColor="#808080"
+        android:backgroundTint="#3a4c24"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="285dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#3a4c24"
+        android:text="доходы"
+        android:textColor="#808080" />
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="20dp"
+        android:text="главная"
+        android:textSize="35dp"
+        android:textColor="#000"
+        android:backgroundTint="#ffffff"
+        />
+    <Button
+        android:id="@+id/diagramma"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#ad9886"
+        android:text="общий график"
+        android:textColor="#000" />
+    <Button
+        android:id="@+id/analise"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#ad9886"
+        android:text="анализ данных"
+        android:textColor="#000" />
+
+
+</RelativeLayout>

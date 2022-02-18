@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_button5"
+    android:background="#d6be7e">
+    <EditText
+        android:id="@+id/text5"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="147dp"
+        android:layout_marginTop="240dp"
+        />
+    <TextView
+        android:id="@+id/wa5"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="145dp"
+        android:layout_marginTop="180dp"
+        android:textSize="23dp"
+        android:text="здоровье"
+        android:textColor="#000"
+        />
+    <Button
+        android:id="@+id/enter4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="#ad9886"
+        android:text="назад"
+        android:textColor="#000"
+        />
+</RelativeLayout>
